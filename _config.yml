@@ -17,11 +17,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-US"
 # Site 상단 타이틀
-title                    : "YD"
+title                    : "HOME"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 # 사이트 이름
-name                     : "YD"
+name                     : "HOME"
 description              : "블로그는 취미"
 url                      : "https://yms218.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -99,7 +99,7 @@ analytics:
 author:
   name             : "YD"
   avatar           : "/assets/images/fire_ball.png"
-  bio              : "The most competent person is the one who tries to learn to most"
+  bio              : "선코딩 후이해"
   location         : "South Korea"
   email            :
   links:
@@ -133,7 +133,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/yms218"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
