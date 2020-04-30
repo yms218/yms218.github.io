@@ -21,7 +21,7 @@ title                    : "YD"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 # 사이트 이름
-name                     : "JYC"
+name                     : "YD"
 description              : "블로그는 취미"
 url                      : "https://yms218.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -97,9 +97,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "JYC"
+  name             : "YD"
   avatar           : "/assets/images/fire_ball.png"
-  bio              : "축구가 좋은 개발자"
+  bio              : "The most competent person is the one who tries to learn to most"
   location         : "South Korea"
   email            :
   links:
