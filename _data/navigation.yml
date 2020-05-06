@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "Categories"
-  - url : /category-archive/
+  - url : https://yms218.github.io/categories/
   - title : "Tags"
   - url : /tags/
   - title: "About"
