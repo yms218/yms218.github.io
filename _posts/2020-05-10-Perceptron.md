@@ -1,5 +1,5 @@
 ---
-title : "Perceptron - (1)"
+title : "Perceptron - 개념"
 excerpt : "Machine Learning"
 use_math : true
 categories :
