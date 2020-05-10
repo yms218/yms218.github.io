@@ -1,7 +1,7 @@
 ---
 title : "퍼셉트론"
 excerpt : "Machine Learning"
-
+use_math : true
 categories :
   - 머신러닝
 tags :
