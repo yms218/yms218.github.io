@@ -20,3 +20,9 @@ z : 가중치 벡터 w의 전치행렬(transpose)과 입력 벡터 x의 dot prod
 $$\phi (z)=\begin{cases} 1,\quad z\ge 0\quad  \\ -1,\quad else \end{cases}$$  
 
 $$\phi (z)$$ : 결정함수, 단위 계단 함수(unit step function) 사용  
+
+$${ \Delta w }_{ j }=\eta ({ y }^{ (i) }-\hat { y } ^{ (i) }){ x }_{ j }^{ (i) }$$  
+$$\eta$$ : 학습률(Learning Rate : 0.0 ~ 1.0)   
+$${ y }^{ (i) }$$ : true class label
+$$\hat { y } ^{ (i) }$$ : predicted class label
+$$w_{ j }$$를 업데이트하는 데 사용되는
