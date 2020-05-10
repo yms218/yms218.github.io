@@ -7,7 +7,7 @@ categories :
 tags :
   - 퍼셉트론
 ---
-* **인공 뉴런을 활용한 두 개의 클래스(-1,1)가 있는 이진 분류**    
+* **Perceptron : 수학적 정의**    
 - 출처 : 머신러닝 교과서 with 파이썬, 사이킷런, 텐서플로  
 
 $$w=\left[ \begin{matrix} { w }_{ 1 } \\ \vdots  \\ { w }_{ m } \end{matrix} \right] ,\quad x=\left[ \begin{matrix} { x }_{ 1 } \\ \vdots  \\ { x }_{ m } \end{matrix} \right]$$   
@@ -19,6 +19,7 @@ $$\phi (z)=\begin{cases} 1,\quad z\ge 0\quad  \\ -1,\quad else \end{cases}$$
 
 $$\phi (z)$$ : 결정함수, 단위 계단 함수(unit step function) 사용  
 
+* **Perceptron Algorithm : 두 개의 클래스(-1,1)가 있는 이진 분류**
 ![](/assets/images/weight.png){: .align-center}
 샘플 x를 입력으로 받아 가중치 w를 연결하여 최종 입력을 계산하게 되는데 결정 함수를 거쳐 최종적으로 샘플의 예측 클래스인 $$\hat { y } ^{ (i) }$$이 -1 또는 1로 이진 분류가 진행되게 됩니다. 그 이후에 $$\hat { y } ^{ (i) }$$을 이용하여 가중치를 업데이트를 하면서 학습이 이루어지게 됩니다.  
 
