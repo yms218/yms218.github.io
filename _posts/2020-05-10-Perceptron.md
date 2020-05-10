@@ -38,7 +38,7 @@ $$\hat { y } ^{ (i) }$$ : predicted class label
 
 
 
-(1) 퍼셉트론이 true label을 정확히 예측한 경우
+>(1) 퍼셉트론이 정확히 예측한 경우
 
 |Predict|Real|  
 |:--:|:--:|
