@@ -32,8 +32,9 @@ $$\hat { y } ^{ (i) }$$ : predicted class label
 1. 퍼셉트론이 true label을 정확히 예측한 경우
 
 |Predict|Real|  
-|:-1:|:-1:|  
-|:1:|:1:|  
+|:--:|:--:|
+| -1 | -1 |  
+| 1 | 1 |  
 
 $${ \Delta w }_{ j }=\eta (-1-(-1)){ x }_{ j }^{ (i) }=0$$  
 $${ \Delta w }_{ j }=\eta (1-1){ x }_{ j }^{ (i) }=0$$  
