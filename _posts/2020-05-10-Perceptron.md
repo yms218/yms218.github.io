@@ -17,7 +17,7 @@ $$w=\left[ \begin{matrix} { w }_{ 1 } \\ \vdots  \\ { w }_{ m } \end{matrix} \ri
 $$z={ w }_{ 1 }{ x }_{ 1 }+\dots +{ w }_{ m }{ x }_{ m }={ w }^{ T }x$$  
 z : 가중치 벡터 w의 전치행렬(transpose)과 입력 벡터 x의 dot product
 
-$$\phi (z)=\begin{cases} 1,\quad z\ge 0\quad  \\ -1,\quad else \end{cases}$$  
+$$\phi (z)=\begin{cases} 1,\quad z\ge 0\quad  \\ -1,\quad else \end{cases}$${: .align-left}  
 
 $$\phi (z)$$ : 결정함수, 단위 계단 함수(unit step function) 사용  
 
