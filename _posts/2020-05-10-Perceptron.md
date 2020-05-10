@@ -11,5 +11,10 @@ tags :
 - 출처 : [머신러닝 교과서 with 파이썬, 사이킷런, 텐서플로]
 
 * 인공 뉴런을 활용한 두 개의 클래스(-1,1)가 있는 이진 분류  
-w\quad =\quad \left[ \begin{matrix} { w }_{ 1 } \\ \vdots  \\ { w }_{ m } \end{matrix} \right] ,\quad x\quad =\quad \left[ \begin{matrix} { x }_{ 1 } \\ \vdots  \\ { x }_{ m } \end{matrix} \right] \\ z\quad =\quad { w }_{ 1 }{ x }_{ 1 }\quad +\quad \dots \quad +\quad { w }_{ m }{ x }_{ m }\quad =\quad { w }^{ T }x
+$$w\quad =\quad \left[ \begin{matrix} { w }_{ 1 } \\ \vdots  \\ { w }_{ m } \end{matrix} \right] ,\quad x\quad =\quad \left[ \begin{matrix} { x }_{ 1 } \\ \vdots  \\ { x }_{ m } \end{matrix} \right] \\ z\quad =\quad { w }_{ 1 }{ x }_{ 1 }\quad +\quad \dots \quad +\quad { w }_{ m }{ x }_{ m }\quad =\quad { w }^{ T }x$$    
+
 z : 가중치 벡터 w의 전치행렬(transpose)과 입력 벡터 x의 dot product
+
+$$\phi (z)\quad =\quad \begin{cases} \quad 1,\quad \quad z\quad \ge \quad 0\quad  \\ -1,\quad \quad else \end{cases}\\$$  
+
+$$\phi (z)$$ : 결정함수, 단위 계단 함수(unit step function)
