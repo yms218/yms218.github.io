@@ -29,7 +29,7 @@ $$\eta$$ : 학습률(Learning Rate : 0.0 ~ 1.0)
 $${ y }^{ (i) }$$ : true class label  
 $$\hat { y } ^{ (i) }$$ : predicted class label  
 
-1. 퍼셉트론이 true label을 정확히 예측한 경우
+(1) 퍼셉트론이 true label을 정확히 예측한 경우
 
 |Predict|Real|  
 |:--:|:--:|
@@ -39,7 +39,7 @@ $$\hat { y } ^{ (i) }$$ : predicted class label
 $${ \Delta w }_{ j }=\eta (-1-(-1)){ x }_{ j }^{ (i) }=0$$  
 $${ \Delta w }_{ j }=\eta (1-1){ x }_{ j }^{ (i) }=0$$  
 
-2. 퍼셉트론이 잘못 예측한 경우
+(2) 퍼셉트론이 잘못 예측한 경우
 
 |Predict|Real|  
 |:--:|:--:|
