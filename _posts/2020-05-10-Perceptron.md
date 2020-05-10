@@ -1,0 +1,15 @@
+---
+title : "퍼셉트론"
+excerpt : "Machine Learning"
+
+categories :
+  - 머신러닝
+tags :
+  - 퍼셉트론
+---
+
+- 출처 : [머신러닝 교과서 with 파이썬, 사이킷런, 텐서플로]
+
+* 인공 뉴런을 활용한 두 개의 클래스(-1,1)가 있는 이진 분류  
+w\quad =\quad \left[ \begin{matrix} { w }_{ 1 } \\ \vdots  \\ { w }_{ m } \end{matrix} \right] ,\quad x\quad =\quad \left[ \begin{matrix} { x }_{ 1 } \\ \vdots  \\ { x }_{ m } \end{matrix} \right] \\ z\quad =\quad { w }_{ 1 }{ x }_{ 1 }\quad +\quad \dots \quad +\quad { w }_{ m }{ x }_{ m }\quad =\quad { w }^{ T }x
+z : 가중치 벡터 w의 전치행렬(transpose)과 입력 벡터 x의 dot product
