@@ -1,5 +1,5 @@
 ---
-title : "인공 뉴런"
+title : "Perceptron - (1)"
 excerpt : "Machine Learning"
 use_math : true
 categories :
@@ -7,9 +7,8 @@ categories :
 tags :
   - 퍼셉트론
 ---
-
-- 출처 : 머신러닝 교과서 with 파이썬, 사이킷런, 텐서플로
 * **인공 뉴런을 활용한 두 개의 클래스(-1,1)가 있는 이진 분류**    
+- 출처 : 머신러닝 교과서 with 파이썬, 사이킷런, 텐서플로  
 
 $$w=\left[ \begin{matrix} { w }_{ 1 } \\ \vdots  \\ { w }_{ m } \end{matrix} \right] ,\quad x=\left[ \begin{matrix} { x }_{ 1 } \\ \vdots  \\ { x }_{ m } \end{matrix} \right]$$   
 
