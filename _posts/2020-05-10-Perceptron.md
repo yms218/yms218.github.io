@@ -23,7 +23,13 @@ $$\phi (z)$$ : 결정함수, 단위 계단 함수(unit step function) 사용
 ![](/assets/images/weight.png){: .align-center}
 샘플 x를 입력으로 받아 가중치 w를 연결하여 최종 입력을 계산하게 되는데 결정 함수를 거쳐 최종적으로 샘플의 예측 클래스인 $$\hat { y } ^{ (i) }$$이 -1 또는 1로 이진 분류가 진행되게 됩니다. 그 이후에 $$\hat { y } ^{ (i) }$$을 이용하여 가중치를 업데이트를 하면서 학습이 이루어지게 됩니다.  
 
+- 학습 규칙
 $${ \Delta w }_{ j }=\eta ({ y }^{ (i) }-\hat { y } ^{ (i) }){ x }_{ j }^{ (i) }$$  
 $$\eta$$ : 학습률(Learning Rate : 0.0 ~ 1.0)   
 $${ y }^{ (i) }$$ : true class label  
 $$\hat { y } ^{ (i) }$$ : predicted class label  
+
+1. 퍼셉트론이 true label을 정확히 예측한 경우
+|:Predict:|:Real:|
+|:-1:|:-1:|
+|:1:|:1:|
