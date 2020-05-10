@@ -33,3 +33,7 @@ $$\hat { y } ^{ (i) }$$ : predicted class label
 |:Predict:|:Real:|
 |:-1:|:-1:|
 |:1:|:1:|
+$${ \Delta w }_{ j }=\eta (-1-(-1)){ x }_{ j }^{ (i) }=0$$  
+$${ \Delta w }_{ j }=\eta (1-1){ x }_{ j }^{ (i) }=0$$  
+
+2. 퍼셉트론이 잘못 예측한 경우
