@@ -9,6 +9,7 @@ tags :
 ---
 [출처 : 머신러닝 교과서 with 파이썬, 사이킷런, 텐서플로]  
 
+```python
 import numpy as np
 class Perceptron(object) :
     # eta : learning rate(0.0 ~ 1.0)
@@ -43,3 +44,4 @@ class Perceptron(object) :
 
     def predict(self, x):
         return np.where(self.net_input(x) >= 0.0, 1, -1)
+```
