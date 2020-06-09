@@ -1,7 +1,5 @@
 # main links
 main:
-  - title: "Test"
-    url : /test/
   - title: "Projects"
     url : /projects/
   - title: "Categories"
