@@ -1,5 +1,5 @@
 ---
-title: "카테고리 별"
+title: "By Categories"
 layout: categories
 permalink: /categories/
 author_profile: true
