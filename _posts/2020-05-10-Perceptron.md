@@ -4,8 +4,7 @@ excerpt : "Machine Learning"
 use_math : true
 categories :
   - 머신러닝
-tags :
-  - 퍼셉트론
+
 ---
 [출처 : 머신러닝 교과서 with 파이썬, 사이킷런, 텐서플로]  
 
