@@ -105,7 +105,6 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: yms21888@naver.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://yms218.github.io/"
