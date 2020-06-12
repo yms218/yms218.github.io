@@ -97,11 +97,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "YD"
+  name             : "POSITIVE"
   avatar           : "/assets/images/fire_ball.png"
   bio              : "선코딩 후이해"
   location         : "South Korea"
-  email            :
+  email            : "yms21888@naver.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
