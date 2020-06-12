@@ -21,7 +21,7 @@ title                    : "HOME"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 # 사이트 이름
-name                     : "HOME"
+name                     : "To Be Positive"
 description              : "블로그는 취미"
 url                      : "https://yms218.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
